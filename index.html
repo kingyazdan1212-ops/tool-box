@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#6c5ce7">
+  <meta name="description" content="Tool Box - مجموعه ابزارهای کاربردی">
+  <link rel="manifest" href="manifest.json">
+  <title>Tool Box</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="bg-orb orb1"></div><div class="bg-orb orb2"></div>
+  <header class="topbar">
+    <div class="brand"><span class="logo">🧰</span><div><h1>Tool Box</h1><small data-i18n="subtitle">مجموعه ابزارهای کاربردی</small></div></div>
+    <div class="actions"><button id="langBtn" class="icon-btn">EN</button><button id="themeBtn" class="icon-btn">☀️</button></div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <span class="pill">⚡ <span data-i18n="ready">سریع، ساده و کاربردی</span></span>
+      <h2 data-i18n="heroTitle">همه ابزارهای مورد نیازت، یکجا</h2>
+      <p data-i18n="heroText">یک جعبه‌ابزار سبک و زیبا برای کارهای روزمره.</p>
+      <div class="search"><span>🔎</span><input id="search" data-i18n-placeholder="search" placeholder="جست‌وجوی ابزار..." /></div>
+    </section>
+    <div id="categories" class="categories"></div>
+    <section id="toolsGrid" class="tools-grid"></section>
+  </main>
+
+  <div id="modal" class="modal hidden"><div class="modal-card">
+    <button id="closeModal" class="close">×</button><div id="modalBody"></div>
+  </div></div>
+
+  <footer>
+    <strong>Tool Box</strong><br>
+    <span data-i18n="made">ساخته شده توسط</span> <b>Yazdan</b><br>
+    <span data-i18n="support">پشتیبانی تلگرام:</span> <a href="https://t.me/Yazdangpt1" target="_blank" rel="noopener">@Yazdangpt1</a>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
